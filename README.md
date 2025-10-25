@@ -1,4 +1,4 @@
-## OLOv8-DINOv2 Approach for Vision based Object Counting
+## YOLOv8-DINOv2 Approach for Vision based Object Counting
 
 **A robust vision-based inventory monitoring pipeline leveraging the strengths of YOLOv8 [1] and DINOv2 [2] for accurate object localization, classification, and counting in cluttered, stacked scenes. Complete network architecture, training parameters, and implementation are provided for reproducibility.**
 
@@ -88,9 +88,12 @@ If you use this code in your research, please cite:
 @inproceedings{singh2025yolov8_dino,
   author    = {Adwika Singh and Bipul Kumar Das and Teena Sharma and Nishchal K. Verma},
   title     = {YOLOv8-DINOv2 Approach for Vision based Object Counting},
-  booktitle = {Project Repository},
+  booktitle = {Proceedings of the International Conference on Intelligent Human Computer Interaction},
+  publisher = {Springer},
+  address   = {Banasthali Vidyapith, Jaipur, Rajasthan, India},
   year      = {2025},
-  howpublished = {\url{https://github.com/singhadwika/Hybrid-YOLOv8-DINOv2-Inventory}},
-  note      = {Affiliations: 1 Banasthali Vidyapith, Rajasthan, India, 304022; 2 Indian Institute of Technology Guwahati, India, 781039; 3 Indian Institute of Technology Kanpur, India, 208016}
+  url       = {https://github.com/singhadwika/Hybrid-YOLOv8-DINOv2-Inventory},
+  note      = {Code and implementation available on GitHub}
 }
 
+```
