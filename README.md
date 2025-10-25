@@ -62,8 +62,8 @@ pip install -r requirements.txt
 ```
 # Organize Data
 Place your images in the following directories:
-Prototype images: paper/prototype_img/
-Scene images: paper/scene_img/
+- Prototype images: paper/prototype_img/
+- Scene images: paper/scene_img/
 
 # Run Main Script
 ```bash
