@@ -50,8 +50,6 @@
 
 ---
 
-## Installation
-
 # Clone the Repository
 
 ```bash
