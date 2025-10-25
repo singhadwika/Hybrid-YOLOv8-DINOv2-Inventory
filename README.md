@@ -1,17 +1,9 @@
-# Hybrid YOLOv8–DINOv2 Vision Inventory Monitoring
+## OLOv8-DINOv2 Approach for Vision based Object Counting
 
 **A robust vision-based inventory monitoring pipeline leveraging the strengths of YOLOv8 [1] and DINOv2 [2] for accurate object localization, classification, and counting in cluttered, stacked scenes. Complete network architecture, training parameters, and implementation are provided for reproducibility.**
 
 ---
 
-## Overview
-
-This repository implements a unified deep learning pipeline for inventory control in challenging environments (warehouses, retail, medical) where objects may be partially occluded, stacked, or presented in varying lighting and orientations. By combining state-of-the-art object detection/segmentation with transformer-based visual embeddings, this system enables:
-- Automated object detection and semantic segmentation
-- Class-agnostic matching via reference prototype images
-- Fast, visually interpretable results and benchmark-grade summaries
-
----
 
 ## Architecture
 
@@ -60,18 +52,18 @@ This repository implements a unified deep learning pipeline for inventory contro
 
 ## Installation
 
-#Clone the Repository
+# Clone the Repository
 
 ```bash
 git clone https://github.com/singhadwika/Hybrid-YOLOv8-DINOv2-Inventory.git
 cd Hybrid-YOLOv8-DINOv2-Inventory 
 ```
 # Install Dependencies
+```bash
 pip install -r requirements.txt
-
+```
 # Organize Data
 Place your images in the following directories:
-
 Prototype images: paper/prototype_img/
 Scene images: paper/scene_img/
 
